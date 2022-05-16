@@ -1,0 +1,34 @@
+{
+  "name": "filmoteka",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://MykhailoKutsyi.github.io/Filmoteka-feature-languages",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Filmoteka-feature-languages/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykhailoKutsyi/Filmoteka-feature-languages.git"
+  },
+  "keywords": [],
+  "author": "JS Project Filmoteka-feature-languages",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MykhailoKutsyi/Filmoteka-feature-languages/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.5.2",
+    "axios": "^0.27.2",
+    "basiclightbox": "^5.0.4",
+    "sweetalert2": "^11.4.14"
+  }
+}
